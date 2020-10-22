@@ -35,15 +35,14 @@ public class Renteoverzicht {
         float jaren;
         jaren = s.nextFloat();
         System.out.println("Bedankt voor uw invoer");
-        if (startBedrag < 100| startBedrag <299){
-
+        if (startBedrag < 100| startBedrag <299) {
         }
-        float rente = 0§    ;
 
+        int rente= (int) ((startBedrag/100)*jaren);
         System.out.println("U heeft ingevuld "+startBedrag+" + " +jaren+ " met deze informatie is uw rente: "+rente+"");
 
 
-    System.out.println("Als u " + startBedrag + " per jaar wilt sparen is uw rente na " + jaren++ + " jaar");
+    System.out.println("Als u " + startBedrag + " per jaar wilt sparen is uw bedrag plus rente na "+jaren+" jaar"+(rente*jaren+startBedrag)*jaren);
 
         boolean Geldigheid = true;
         short invoer = 1|1000;
