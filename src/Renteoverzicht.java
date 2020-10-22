@@ -2,8 +2,6 @@ import java.util.Scanner;
 
 public class Renteoverzicht {
     public static void main(String[] args) {
-
-
         //We gaan een rentepercentage berekenen aan de hand van je invoer
 
         //Houd rekening dat de rente percentage afhankelijk is van de invoer. Onderstaande formule word gehanteerd:
@@ -11,7 +9,6 @@ public class Renteoverzicht {
         // 300 t/m 599 euro -> 2% rente
         // 600 t/m 999 euro -> 1% rente
         // 1000 & daarboven -> 0,5% rente
-
         // hier voer je de naam in voor een welkomstboodschap met de ingevoerde naam
 
         System.out.println("Welkom bij Banket bankieren, Hoe mag ik je noemen?");
